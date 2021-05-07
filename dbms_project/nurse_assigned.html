@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Nurse Information</title>
+</head>
+
+<body>
+  <div class="container py-5">
+    <div class="mt-5 ">
+
+    </div>
+    <div class="row mt-2">
+      <div class="col-12">
+        <h1 class="text-info text-center display-4 font-weight-bold">Insert value for Nurse_Assigned table</h1>
+
+      </div>
+    </div>
+    <form class="mt-3" action="nurse_assigned.php" method="post">
+      <div class="form-row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-4">
+          <input type="text" class="form-control" placeholder="Nurse ID" type="number" name="nid">
+        </div>
+        <div class="col-4">
+          <input type="text" class="form-control" placeholder="Count Patient" type="number" name="countpatient">
+        </div>
+        <div class="col-2">
+
+        </div>
+
+      </div>
+      <button type="submit" class="btn btn-danger mx-auto d-block mt-4">Submit</button>
+
+
+    </form>
+    <h1 class="text-info text-center lead font-weight-bold mt-2">Do you want to delete the inserted records?</h1>
+    <form action="nurse_assigned_table_records_delete.php" method="post">
+      <button type="submit" class="btn btn-danger mx-auto d-block mt-3">Delete</button>
+    </form>
+    <h1 class="text-info text-center lead font-weight-bold mt-2">Do you want to update the inserted records?</h1>
+    <a href="nurse_assigned_table_update_records.html"><button type="submit" class="btn btn-danger mx-auto d-block mt-3">Update</button></a>
+    <h1 class="text-info text-center lead font-weight-bold mt-2">Do you want to show the inserted records?</h1>
+    <form action="nurse_assigned_table_records_show.php" method="post">
+      <button type="submit" class="btn btn-danger mx-auto d-block mt-3">Show All Records</button>
+    </form>
+    <a href="nurse_assigned_table_show_records_individual.html"><button type="submit" class="btn btn-danger mx-auto d-block mt-3">Show Individual Record</button></a>
+  </div>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

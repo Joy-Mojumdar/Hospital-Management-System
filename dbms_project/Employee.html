@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Employee Information</title>
+</head>
+
+<body>
+    <div class="container py-5">
+      <div class="mt-5 ">
+
+      </div>
+      <div class="row mt-2">
+        <div class="col-12">
+          <h1 class="text-info text-center display-4 font-weight-bold">Insert value for Employee table</h1>
+
+        </div>
+      </div>
+      <form class="mt-3" action="Employee.php" method="post">
+        <div class="form-row">
+          <div class="col-2">
+
+          </div>
+          <div class="col-4">
+            <input type="text" class="form-control" placeholder="Employee ID" type="number" name="empid">
+          </div>
+          <div class="col-4">
+            <input type="text" class="form-control" placeholder="First Name" type="text" name="fname">
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-4 mt-3">
+            <input type="text" class="form-control" placeholder="Last Name" type="text" name="lname">
+          </div>
+          <div class="col-4 mt-3">
+            <input type="text" class="form-control" placeholder="Gender" type="text" name="gender">
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-4 mt-3">
+            <input type="text" class="form-control" placeholder="Employee Type" type="text" name="emptype">
+          </div>
+          <div class="col-4 mt-3">
+            <input type="text" class="form-control" placeholder="Home Number" type="text" name="Hno">
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-4 mt-3">
+            <input type="text" class="form-control" placeholder="Street" type="text" name="street">
+          </div>
+          <div class="col-4 mt-3">
+            <input type="text" class="form-control" placeholder="City" type="text" name="city">
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-4 mt-3">
+            <input type="text" class="form-control" placeholder="State" type="text" name="state">
+          </div>
+          <div class="col-4 mt-3">
+            <input type="text" class="form-control" placeholder="Date Of Joining(YYYY-MM-DD)" type="text" name="date_of_joining">
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-4 mt-3">
+            <input type="text" class="form-control" placeholder="Email" type="text" name="email">
+          </div>
+          <div class="col-4 mt-3">
+            <input type="text" class="form-control" placeholder="Department ID" type="number" name="deptid">
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-8 mt-3">
+            <input type="text" class="form-control" placeholder="Date Of Birth(YYYY-MM-DD)" type="text" name="date_of_birth">
+          </div>
+          <div class="col-2">
+
+          </div>
+
+        </div>
+        <button type="submit" class="btn btn-danger mx-auto d-block mt-4">Submit</button>
+
+
+      </form>
+      <h1 class="text-info text-center lead font-weight-bold mt-2">Do you want to delete the inserted records?</h1>
+      <form action="Employee_table_records_delete.php" method="post">
+        <button type="submit" class="btn btn-danger mx-auto d-block mt-3">Delete</button>
+      </form>
+      <h1 class="text-info text-center lead font-weight-bold mt-2">Do you want to update the inserted records?</h1>
+      <a href="Employee_table_update_records.html"><button type="submit" class="btn btn-danger mx-auto d-block mt-3">Update</button></a>
+      <h1 class="text-info text-center lead font-weight-bold mt-2">Do you want to show the inserted records?</h1>
+      <form action="Employee_table_records_show.php" method="post">
+        <button type="submit" class="btn btn-danger mx-auto d-block mt-3">Show All Records</button>
+      </form>
+      <a href="Employee_table_show_records_individual.html"><button type="submit" class="btn btn-danger mx-auto d-block mt-3">Show Individual Record</button></a>
+    </div>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
